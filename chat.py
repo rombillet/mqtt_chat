@@ -30,7 +30,6 @@ props.SessionExpiryInterval = 30
 
 client.connect("localhost", 1883, clean_start=False, properties=props)
 client.loop_start()
-client.loop_start()
 
 try:
     while True:
